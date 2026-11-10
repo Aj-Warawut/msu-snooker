@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MSU Snooker · ชมรมสนุกเกอร์ สโมสรบุคลากร มมส.</title>
+<meta name="description" content="หน้ารวมของชมรมสนุกเกอร์ สโมสรบุคลากร มหาวิทยาลัยมหาสารคาม และผลการแข่งขันกีฬาบุคลากร">
+<style>
+:root{--ink:#1c1c1c;--paper:#fafaf7;--card:#fff;--line:#e4e2da;--muted:#6b685f;--gold:#f2c230;--felt:#1f6b45;--felt-dark:#164f33}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Sukhumvit Set","Sarabun","Noto Sans Thai",system-ui,-apple-system,sans-serif;line-height:1.6}
+a{color:inherit}
+header{background:linear-gradient(135deg,var(--felt),var(--felt-dark));color:#fff;padding:48px 16px 40px}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px}
+header .wrap{padding:0}
+.kicker{display:inline-block;background:var(--gold);color:#1c1c1c;font-weight:700;font-size:13px;letter-spacing:.06em;padding:3px 10px;border-radius:999px}
+h1{font-size:clamp(28px,5vw,40px);line-height:1.2;margin:14px 0 6px}
+header p{margin:0;opacity:.88;font-size:17px}
+main{padding:32px 0 48px}
+h2{font-size:20px;margin:28px 0 12px;display:flex;align-items:center;gap:10px}
+h2::before{content:"";width:6px;height:22px;border-radius:3px;background:var(--felt)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.card{display:block;text-decoration:none;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 18px 16px;transition:transform .15s,box-shadow .15s,border-color .15s}
+.card:hover,.card:focus-visible{transform:translateY(-2px);box-shadow:0 8px 22px #0000000f;border-color:var(--felt);outline:none}
+.card b{display:block;font-size:18px;margin-bottom:4px}
+.card span{display:block;color:var(--muted);font-size:15px}
+.card.main{border-top:4px solid var(--gold)}
+.go{display:inline-block;margin-top:10px;font-weight:700;color:var(--felt)}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:14px;text-align:center;padding:20px 16px 28px}
+@media (prefers-color-scheme:dark){
+ :root{--ink:#ecebe6;--paper:#151815;--card:#1d211e;--line:#2f3631;--muted:#a7a59c}
+ .card:hover,.card:focus-visible{box-shadow:0 8px 22px #00000059}
+ .go{color:#7fd3a4}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <span class="kicker">MSU SNOOKER</span>
+  <h1>ชมรมสนุกเกอร์<br>สโมสรบุคลากร มหาวิทยาลัยมหาสารคาม</h1>
+  <p>แมตช์นี้มีแชมป์ ทุกแมตช์มีเพื่อน</p>
+ </div>
+</header>
+<main class="wrap">
+ <h2>ชมรมสนุกเกอร์</h2>
+ <div class="grid">
+  <a class="card main" href="MSU_Snooker_Dashboard.html">
+   <b>Dashboard ชมรม</b>
+   <span>ข้อมูลชมรม ผลการแข่งขัน สรุปกิจกรรม และภาพบรรยากาศ</span>
+   <div class="go">เปิด Dashboard →</div>
+  </a>
+  <a class="card" href="MSU_Snooker_เรื่องราวชมรม_40วินาที.html">
+   <b>เรื่องราวชมรมใน 40 วินาที</b>
+   <span>แมตช์นี้มีแชมป์ ทุกแมตช์มีเพื่อน</span>
+   <div class="go">ดูเรื่องราว →</div>
+  </a>
+ </div>
+
+ <h2>กีฬาบุคลากร MSU Staff Games 2569</h2>
+ <div class="grid">
+  <a class="card" href="results.html">
+   <b>ผลการแข่งขัน</b>
+   <span>ผลการแข่งขันกีฬาบุคลากร ประจำปี 2569</span>
+   <div class="go">ดูผลการแข่งขัน →</div>
+  </a>
+  <a class="card" href="msu-sports-live.html">
+   <b>รายงานผลกีฬาสีสัมพันธ์ ครั้งที่ 1</b>
+   <span>สรุปผลรายวันและคะแนนรวมของแต่ละสี</span>
+   <div class="go">ดูรายงาน →</div>
+  </a>
+ </div>
+</main>
+<footer>ชมรมสนุกเกอร์ สโมสรบุคลากร มหาวิทยาลัยมหาสารคาม</footer>
+</body>
+</html>
